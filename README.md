@@ -161,7 +161,7 @@ Hello Kubernetes!
 ```
 
 If you are using minikube, typing minikube service my-service will automatically open the Hello World application in a browser.
-
+```
 qzhao-mbp:k8s qzhao$ minikube service my-service
 |-----------|------------|-------------|-----------------------------|
 | NAMESPACE |    NAME    | TARGET PORT |             URL             |
@@ -169,7 +169,7 @@ qzhao-mbp:k8s qzhao$ minikube service my-service
 | default   | my-service |             | http://192.168.99.104:31177 |
 |-----------|------------|-------------|-----------------------------|
 🎉  Opening kubernetes service  default/my-service in default browser...
-
+```
 
 # Cleaning up
 To delete the Service, enter this command:
