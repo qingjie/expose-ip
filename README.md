@@ -200,3 +200,11 @@ qzhao-mbp:~ qzhao$ minikube ssh
 $ curl http://192.168.99.104:31177
 Hello Kubernetes!$
 ```
+
+```
+qzhao-mbp:~ qzhao$ kubectl cluster-info
+Kubernetes master is running at https://192.168.99.104:8443
+KubeDNS is running at https://192.168.99.104:8443/api/v1/namespaces/kube-system/services/kube-dns:dns/proxy
+
+To further debug and diagnose cluster problems, use 'kubectl cluster-info dump'.
+```
