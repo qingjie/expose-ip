@@ -22,10 +22,10 @@ spec:
         name: hello-world
         ports:
         - containerPort: 8080
-```
+
 qzhao-mbp:k8s qzhao$ kubectl create -f load-balancer-example.yaml
 deployment.apps/hello-world created
-
+```
 1. Display information about the Deployment:
 ```
 qzhao-mbp:k8s qzhao$ kubectl get deployments hello-world
